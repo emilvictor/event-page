@@ -1,57 +1,56 @@
 body {
-  position: absolute;
-  width: 1176px;
-  height: 730px;
-  left: 0px;
-  top: 0px;
+
   background: #265A28;
 }
 
-.chalmersLogo {
+ .chalmersLogo {
   position: absolute;
-  width: 261px;
-  height: 71px;
-  left: 32px;
-  top: 19px;
+  width: 134px;
+  height: 51px;
+  left: 11px;
+  top: 14px;
+
 }
 
-.natureTitle {
+/* .natureTitle {
   position: absolute;
-  width: 702px;
-  height: 394px;
-  left: 89px;
-  top: 143px;
+  width: 300px;
+  height: 200px;
+  left: 43px;
+  top: 259px;
+
   font-family: Oleo Script Swash Caps;
   font-style: normal;
   font-weight: bold;
-  font-size: 121px;
+  font-size: 90px;
   line-height: 140.62%;
-  /* or 170px */
   color: #045837;
 }
 
 .secondTitle {
   position: absolute;
-  width: 540px;
-  height: 96px;
-  left: 86px;
-  top: 280px;
+width: 1032px;
+height: 293px;
+left: 36px;
+top: 360px;
 
-  font-family: Open Sans;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 140.62%;
-  /* or 67px */
-  color: #045837;
+font-family: Open Sans;
+font-style: italic;
+font-weight: normal;
+font-size: 32px;
+line-height: 140.62%; */
+/* or 45px */
+
+
+/* color: #045837;
 }
 
 .ctaButton {
   position: absolute;
   width: 276px;
   height: 72px;
-  left: 142px;
-  top: 389px;
+  left: 60px;
+  top: 450px;
   background: #456140;
   box-shadow: 8px 13px 4px rgba(29, 29, 27, 0.22);
   border-radius: 200px;
@@ -62,10 +61,10 @@ body {
   line-height: 140.62%;
   /* or 51px */
 
-  color: #def8d9;
-}
+  /* color: #def8d9;
+} */
 
-.indian {
+/* .indian {
   position: absolute;
   width: 180.08px;
   height: 235px;
@@ -73,25 +72,16 @@ body {
   top: 216px;
 
   filter: drop-shadow(0px 11px 10px rgba(0, 0, 0, 0.25));
-}
+} */
 
 
-.nav {
-    display: flex;
-    align-items: flex-end;
+/* .nav {
+    display: flex; 
     justify-content: flex-end;
-    margin-left: 45%;
-   
-    
-}
+     
+}  */
 
-.navsecond {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .green {
-    height:100vh;
-    
+   object-fit: fit;
 }
