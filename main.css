@@ -1,0 +1,20 @@
+.main {
+  position: absolute;
+  background: #def8d9;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.main-title {
+  color: #045837;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  font-family: Oleo Script Swash Caps;
+}
+
+/* .utställning {
+  z-index: -1;
+} */
