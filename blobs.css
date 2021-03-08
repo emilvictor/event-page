@@ -1,0 +1,48 @@
+.second-view {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #def8d9;
+  margin: 0;
+  padding: 5px;
+  height: auto;
+}
+
+.blob-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blob-title {
+  text-align: center;
+  color: #045837;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: Oleo Script Swash Caps;
+}
+
+.blob-title2 {
+  text-align: center;
+  color: #045837;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: Oleo Script Swash Caps;
+  z-index: 2;
+}
+
+.blob-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.item {
+  align-self: center;
+}

@@ -3,28 +3,116 @@
 }
 
 body {
-  background: #045837;
+  background: #def8d9;
   margin: 0;
 }
 
-.header {
+header {
+  display: flex;
+  justify-content: flex-end;
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* transition: transform 1s ease-out; */
+}
+
+.background-fill {
+  background: #045837;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  position: absolute;
+}
+
+.hamburger-menu {
+  position: absolute;
+  padding-top: 10px;
+  padding-right: 10px;
+  z-index: 2;
+}
+
+.chalmers-logo {
+  position: absolute;
+  width: 134px;
+  height: 51px;
+  left: 14px;
+  top: 14px;
+  z-index: 2;
+}
+
+.greenboxandforest {
+  transform: translateX();
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.first-view {
+  width: 100%;
+  height: 100vh;
+  display: flex;
   position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.image-overlay {
+  clip-path: polygon(
+    100% 100%,
+    0% 100%,
+    0% 0%,
+    54% 0%,
+    54% 3%,
+    55% 5%,
+    58% 7%,
+    61% 8%,
+    64% 9%,
+    68% 10%,
+    71% 11%,
+    74% 13%,
+    78% 18%,
+    81% 22%,
+    84% 27%,
+    87% 33%,
+    89% 38%,
+    91% 43%,
+    93% 50%,
+    94% 55%,
+    96% 61%,
+    100% 80%
+  );
+  position: absolute;
+  background-color: #def8d9;
+  z-index: 1;
   width: 100%;
   height: 100vh;
 }
 
-.chalmersLogo {
-  position: absolute;
-  width: 134px;
-  height: 51px;
-  left: calc(100vh - 570px);
-  top: 14px;
+/* header.test {
+  transform: translateX(-30%);
+} */
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.natureTitle {
+.indian {
   position: absolute;
+  top: 90px;
+  right: 100px;
+  width: 109px;
+  z-index: 2;
+  filter: drop-shadow(0px 11px 10px rgba(0, 0, 0, 0.25));
+}
+
+.nature-title {
+  margin: 0;
   width: 300px;
-  height: 200px;
   left: 43px;
   top: 259px;
   font-family: Oleo Script Swash Caps;
@@ -33,27 +121,27 @@ body {
   font-size: 90px;
   line-height: 140.62%;
   color: #045837;
+  z-index: 2;
 }
 
-.secondTitle {
-  position: absolute;
-  width: 1032px;
-  height: 293px;
+.second-title {
+  margin-top: -15px;
+  width: 100%;
   left: 36px;
   top: 360px;
   font-family: Open Sans;
   font-style: italic;
   font-weight: normal;
   font-size: 32px;
+  text-align: center;
   line-height: 140.62%;
   /* or 45px */
   color: #045837;
+  z-index: 2;
 }
 
-.ctaButton {
-  position: absolute;
+.cta-button {
   width: 276px;
-  height: 72px;
   left: 60px;
   top: 450px;
   background: #456140;
@@ -65,17 +153,8 @@ body {
   font-size: 36px;
   line-height: 140.62%;
   color: #def8d9;
+  z-index: 2;
   /* or 51px */
-}
-
-.indian {
-  position: absolute;
-  width: 109px;
-  height: 142px;
-  top: 110px;
-  left: 170px;
-  z-index: 1;
-  filter: drop-shadow(0px 11px 10px rgba(0, 0, 0, 0.25));
 }
 
 /* .nav {
@@ -92,13 +171,6 @@ body {
   top: 30px;
 }
 
-.green {
+/* .green {
   position: absolute;
-}
-
-.hamburgerMenu {
-  display: inline-block;
-  float: right;
-  padding-top: 10px;
-  padding-right: 10px;
-}
+} */
