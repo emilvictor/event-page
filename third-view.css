@@ -6,20 +6,17 @@
   background: #def8d9;
   margin: 0;
   padding: 5px;
-  height: 100vh;
 }
 
-.third-title-container {
+/* .third-title-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .third-title {
   width: 255px;
-  left: 60px;
-  top: 36px;
   font-family: Oleo Script Swash Caps;
   font-style: normal;
   font-weight: bold;
@@ -27,11 +24,11 @@
   line-height: 140.62%;
   /* or 28px */
   color: #045837;
+  z-index: 2;
 }
 
 .about-us {
-  width: 255px;
-  height: 243px;
+  width: 260px;
   left: 60px;
   top: 36px;
   font-family: Open sans;
@@ -43,24 +40,22 @@
   color: #045837;
 }
 
-.map-container {
+/* .map-container {
   margin-top: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-}
+} */
 
 .map {
-  position: absolute;
+  /* position: absolute; */
   width: 252px;
   height: 350px;
   background: #045837;
 }
 
 .map-title {
-  position: absolute;
   width: 252px;
   height: 350px;
   left: 74px;
