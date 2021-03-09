@@ -3,15 +3,41 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #045837
-    ;
+    background: #045837;
     margin: 0;
     padding: 5px;
     height: 100vh;
     width: 100%;
+    color: #DEF8D9;
   }
 
   p {
       margin-left: 5px;
       margin-right: 5px;
+      font-family: open sans;
   }
+  .form-button {
+      margin-top: 20px;
+    width: 130px;
+    left: 60px;
+    top: 450px;
+    background: #DEF8D9;
+    box-shadow: 8px 13px 4px rgba(29, 29, 27, 0.22);
+    border-radius: 200px;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140.62%;
+    color: #045837;
+    z-index: 2;
+  }
+
+  form {
+      font-family: open sans;
+  }
+
+  h3 {
+      font-family: open sans;
+  }
+  

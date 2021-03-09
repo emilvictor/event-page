@@ -49,8 +49,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  
 }
 
 .map {
@@ -62,8 +61,8 @@
 
 .map-title {
   position: absolute;
-  width: 702px;
-  height: 394px;
+  width: 252px;
+  height: 350px;
   left: 74px;
   top: 279px;
 

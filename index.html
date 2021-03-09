@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="second-view.css" />
     <link rel="stylesheet" href="third-view.css">
     <link rel="stylesheet" href="fourth-view.css">
+    <link rel="stylesheet" href="footer.css">
+
     <title>Amazonas</title>
   </head>
   <body>
@@ -82,17 +84,43 @@
     </section>
   <section class="fourth-view">
 
-    <h5>Anmäl dig här</h5>
+    <h3>Anmäl dig här</h3>
     <p>Anmäl dig till programmen redan nu och säkra din plats till föreläsningar och spelningar</p>
 
 <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
+  <label for="name">Namn och efternamn</label><br>
   <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
+  <label for="adress">Adress</label><br>
+  <input type="text" id="adress" name="adress" value="Adress"><br><br>
+  <label for="fname">Mailadress</label><br>
+  <input type="email" id="email" name="email" value="Email"><br>
+  <label for="email">Telefonnummer</label><br>
+  <input type="text" id="fname" name="fname" value="Tel"><br>
+  <label for="fname">Meddelande</label><br>
+  <input type="text" id="fname" name="fname" value="Meddelande"><br>
+  <input class="form-button" type="submit" value="Submit">
 </form> 
 
   </section>
+
+  <footer class="footer">
+
+    <div class="left-footer">
+      <p>Besöksadress</p>
+     <p> CHALMERS TEKNISKA HÖGSKOLA AB</p>
+     <p>412 96 GÖTEBORG</p>
+     <p>TELEFON: 031-772 10 00</p>
+    </div>
+
+     <img src="pics-svg/chalmerslogo.svg" alt="" class="chalmers-logo-footer" />
+
+     <div class="right-footer">
+        <p>Kontakt</p>
+      <p><a href="">chalmers@chalmers.se</a></p>
+     </div>
+     
+
+    
+  </footer>
   </body>
 </html>
