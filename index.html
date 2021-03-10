@@ -16,9 +16,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="first-view.css" />
     <link rel="stylesheet" href="second-view.css" />
-    <link rel="stylesheet" href="third-view.css">
-    <link rel="stylesheet" href="fourth-view.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="third-view.css" />
+    <link rel="stylesheet" href="fourth-view.css" />
+    <link rel="stylesheet" href="footer.css" />
 
     <title>Amazonas</title>
   </head>
@@ -39,7 +39,7 @@
     <div class="background-fill"></div>
     <section class="first-view">
       <img src="pics-svg/indian.svg" alt="" class="indian" />
-      <div class="title-container"></div>
+      <div class="title-container">
         <h1 class="nature-title">Nature</h1>
         <h2 class="second-title">Amazonas i Colombia</h2>
         <button class="cta-button">Till anmälan</button>
@@ -67,58 +67,68 @@
     <section class="third-view">
       <!-- <div class="third-title-container"> -->
       <h3 class="third-title">About us</h3>
-      <p class="about-us">CSS was established 2001 and is a student organization 
-      under the Chalmers Student Union of the Chalmers University of Technology.
-      We aim to raise awareness about sustainability and encourage student 
-      and citizens engagement in our area. Our actions are through a variety 
-      of projects and we have over the years arranged events from food rescuing, 
-      clothes swap parties, social inclusion, recycling, waste picking in Gothenburg´s 
-      Archipelago, to lectures. We also helped Chalmers to divest from fossil fuels and 
-      calculated the carbon footprint for the different menus at Chalmers.</p>
-    <!-- </div> -->
+      <p class="about-us">
+        CSS was established 2001 and is a student organization under the
+        Chalmers Student Union of the Chalmers University of Technology. We aim
+        to raise awareness about sustainability and encourage student and
+        citizens engagement in our area. Our actions are through a variety of
+        projects and we have over the years arranged events from food rescuing,
+        clothes swap parties, social inclusion, recycling, waste picking in
+        Gothenburg´s Archipelago, to lectures. We also helped Chalmers to divest
+        from fossil fuels and calculated the carbon footprint for the different
+        menus at Chalmers.
+      </p>
+      <!-- </div> -->
       <div class="map">
         <h3 class="map-title">Hitta hit</h3>
       </div>
     </section>
-  <section class="fourth-view">
+    <section class="fourth-view">
+      <h3>Anmäl dig här</h3>
+      <p>
+        Anmäl dig till programmen redan nu och säkra din plats till
+        föreläsningar och spelningar
+      </p>
 
-    <h3>Anmäl dig här</h3>
-    <p>Anmäl dig till programmen redan nu och säkra din plats till föreläsningar och spelningar</p>
+      <form action="/action_page.php">
+        <label for="name">Namn och efternamn</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="adress">Adress</label><br />
+        <input
+          type="text"
+          id="adress"
+          name="adress"
+          value="Adress"
+        /><br /><br />
+        <label for="fname">Mailadress</label><br />
+        <input type="email" id="email" name="email" value="Email" /><br />
+        <label for="email">Telefonnummer</label><br />
+        <input type="text" id="fname" name="fname" value="Tel" /><br />
+        <label for="fname">Meddelande</label><br />
+        <input type="text" id="fname" name="fname" value="Meddelande" /><br />
+        <input class="form-button" type="submit" value="Submit" />
+      </form>
+    </section>
 
-<form action="/action_page.php">
-  <label for="name">Namn och efternamn</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="adress">Adress</label><br>
-  <input type="text" id="adress" name="adress" value="Adress"><br><br>
-  <label for="fname">Mailadress</label><br>
-  <input type="email" id="email" name="email" value="Email"><br>
-  <label for="email">Telefonnummer</label><br>
-  <input type="text" id="fname" name="fname" value="Tel"><br>
-  <label for="fname">Meddelande</label><br>
-  <input type="text" id="fname" name="fname" value="Meddelande"><br>
-  <input class="form-button" type="submit" value="Submit">
-</form> 
+    <footer class="footer">
+      <div class="left-footer">
+        <p>Besöksadress</p>
+        <p>CHALMERS TEKNISKA HÖGSKOLA AB</p>
+        <p>412 96 GÖTEBORG</p>
+        <p>TELEFON: 031-772 10 00</p>
+      </div>
 
-  </section>
+      <img
+        src="pics-svg/chalmerslogo.svg"
+        alt=""
+        class="chalmers-logo-footer"
+      />
 
-  <footer class="footer">
-
-    <div class="left-footer">
-      <p>Besöksadress</p>
-     <p> CHALMERS TEKNISKA HÖGSKOLA AB</p>
-     <p>412 96 GÖTEBORG</p>
-     <p>TELEFON: 031-772 10 00</p>
-    </div>
-
-     <img src="pics-svg/chalmerslogo.svg" alt="" class="chalmers-logo-footer" />
-
-     <div class="right-footer">
+      <div class="right-footer">
         <p>Kontakt</p>
-      <p><a href="">chalmers@chalmers.se</a></p>
-     </div>
-     
-
-    
-  </footer>
+        <p><a href="">chalmers@chalmers.se</a></p>
+      </div>
+    </footer>
+    <script src="query.js"></script>
   </body>
 </html>
