@@ -46,3 +46,8 @@
 .item {
   align-self: center;
 }
+
+@media screen and (min-width: 700px) {
+  .blob-grid {
+  }
+}
