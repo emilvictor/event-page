@@ -44,7 +44,14 @@
       <div class="title-container">
         <h1 class="nature-title">Nature</h1>
         <h2 class="second-title">Amazonas i Colombia</h2>
-        <button class="cta-button">Till anmälan</button>
+        <button
+          class="cta-button"
+          input
+          type="button"
+          onClick="document.getElementById('fourth-view').scrollIntoView();"
+        >
+          Till anmälan
+        </button>
       </div>
     </section>
 
@@ -54,13 +61,15 @@
     </div>
     <section class="second-view">
       <div class="blob-grid">
-        <div class="item">
+        <div class="item1">
           <img src="pics-svg/utställning.svg" alt="" />
           <img src="pics-svg/hantverk.svg" alt="" />
-          <img src="pics-svg/workshop_matlagning.svg" alt="" />
         </div>
-        <div class="item">
+        <div class="item2">
+          <img src="pics-svg/workshop_matlagning.svg" alt="" />
           <img src="pics-svg/marknad.svg" alt="" />
+        </div>
+        <div class="item3">
           <img src="pics-svg/föreläsning.svg" alt="" />
           <img src="pics-svg/spelning.svg" alt="" />
         </div>
@@ -85,7 +94,7 @@
         <h3 class="map-title">Hitta hit</h3>
       </div>
     </section>
-    <section class="fourth-view">
+    <section class="fourth-view" id="fourth-view">
       <h3>Anmäl dig här</h3>
       <p>
         Anmäl dig till programmen redan nu och säkra din plats till

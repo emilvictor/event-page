@@ -195,7 +195,7 @@ nav .hamburger-menu {
   color: #def8d9;
   z-index: 2;
   /* or 51px */
-  transition: 2s;
+  transition: transform 2s;
 }
 
 .cta-button:hover {
