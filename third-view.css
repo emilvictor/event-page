@@ -70,3 +70,17 @@
 
   color: #def8d9;
 }
+
+@media screen and (min-width: 700px) {
+  .third-view {
+    flex-direction: row;
+  }
+
+  .third-title-container {
+    padding: 50px;
+  }
+
+  .map {
+    margin: 50px;
+  }
+}
