@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="third-view.css" />
     <link rel="stylesheet" href="fourth-view.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="hamburger.css">
 
     <title>Amazonas</title>
   </head>
@@ -30,8 +31,17 @@
       <img class="leaf2" src="./preload-svg/leafyellow.svg" alt="" />
       <img class="leaf3" src="./preload-svg/leaflightgreen.svg" alt="" />
     </div>
+    <div class="dropdown" onclick="hamburgerToggle()">
+      <span>X</span>
+      <div class="link-container">
+        <a href="#projekt">Projekt</a>
+        <a href="#about">Om oss</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="#fourth-view">Engagera dig</a>
+      </div>
+    </div>
     <nav>
-      <img src="pics-svg/cheesburger.svg" alt="" class="hamburger-menu" />
+      <img src="pics-svg/cheesburger.svg" alt="" class="hamburger-menu" onclick="hamburgerToggle()" />
     </nav>
     <header>
       <!-- <img src="pics-svg/forest.svg" alt="" class="forest" />
@@ -66,7 +76,7 @@
       <h3 class="blob-title">Nature</h3>
       <h3 class="blob-title2">Tema: Colombia</h3>
     </div>
-    <section class="second-view">
+    <section id="projekt" class="second-view">
       <div class="blob-grid">
         <div class="item1">
           <img src="pics-svg/utställning.svg" alt="" />
@@ -82,7 +92,7 @@
         </div>
       </div>
     </section>
-    <section class="third-view">
+    <section id="about" class="third-view">
       <div class="third-title-container">
         <h3 class="third-title">About us</h3>
         <p class="about-us">
@@ -128,7 +138,7 @@
       </form>
     </section>
 
-    <footer>
+    <footer id="kontakt">
       <div class="left-footer">
         <p>Besöksadress</p>
         <p>CHALMERS TEKNISKA HÖGSKOLA AB</p>
@@ -146,7 +156,7 @@
         <p>Kontakt</p>
         <p><a href="">chalmers@chalmers.se</a></p>
       </div>
-    </footer>
+    </footer >
     <script src="query.js"></script>
     <script src="app.js"></script>
   </body>
