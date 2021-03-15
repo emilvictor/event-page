@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 1s opacity 5s ease;
+  transition: 1s opacity 4s ease;
 }
 
 .leaf1,
@@ -37,7 +37,7 @@
 
 .bush {
   height: 200px;
-  animation: bush 1s ease infinite alternate;
+  animation: bush 8s ease infinite alternate;
 }
 
 .preloader h3 {
@@ -54,7 +54,7 @@
     transform: scale(1);
   }
   to {
-    transform: scale(1.2);
+    transform: scale(5);
   }
 }
 
