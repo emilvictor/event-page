@@ -37,8 +37,6 @@ nav .hamburger-menu {
   right: 10px;
 }
 
-
-
 .chalmers-logo {
   position: absolute;
   width: 134px;
@@ -215,6 +213,11 @@ nav .hamburger-menu {
 } */
 
 @media screen and (min-width: 700px) {
+  .chalmers-logo {
+    width: 250px;
+    height: 100px;
+  }
+
   .indian {
     position: absolute;
     top: 230px;

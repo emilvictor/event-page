@@ -3,39 +3,39 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   color: #045837;
+  margin: 5px;
 }
 
 .chalmers-logo-footer {
-  width: 30%;
-  margin: 1rem;
+  width: 27%;
+  margin-left: -31px;
 }
 
 .left-footer {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 8px;
-  line-height: 140.62%;
-  margin: 1rem;
+  font-size: 12px;
 }
 
 .right-footer {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 8px;
-  line-height: 140.62%;
-  margin: 1rem;
+  font-size: 12px;
+  margin: 3px;
+  padding-right: 4px;
 }
 
 @media screen and (min-width: 700px) {
   .right-footer {
     font-size: 18px;
+    padding-right: 10px;
   }
 
   .left-footer {
     font-size: 18px;
+    padding: 10px;
   }
 }
