@@ -1,43 +1,120 @@
 .fourth-view {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #045837;
-    margin: 0;
-    padding: 5px;
-    height: 100vh;
-    width: 100%;
-    color: #DEF8D9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #045837;
+  margin: 0;
+  padding: 5px;
+  height: 100vh;
+  width: 100%;
+  color: #def8d9;
+}
+
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: open sans;
+}
+.form-button {
+  margin-top: 20px;
+  width: 130px;
+  left: 60px;
+  top: 450px;
+  background: #def8d9;
+  box-shadow: 8px 13px 4px rgba(29, 29, 27, 0.22);
+  border-radius: 200px;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 140.62%;
+  color: #045837;
+  z-index: 2;
+}
+
+form {
+  font-family: open sans;
+}
+
+h3 {
+  font-family: open sans;
+}
+
+input {
+  border: none;
+  border-bottom: 4px solid #def8d9;
+  border-right: 4px solid #def8d9;
+  background-color: #045837;
+  color: #def8d9;
+  width: 220px;
+  margin-top: 20px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 700px) {
+  .natureform {
+    display: grid;
+    grid-template-columns: 1fr, 1fr 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas:
+      "form1 form2 form3"
+      "form4 form5 form5";
   }
 
-  p {
-      margin-left: 5px;
-      margin-right: 5px;
-      font-family: open sans;
+  .form1 {
+    grid-area: form1;
   }
-  .form-button {
-      margin-top: 20px;
-    width: 130px;
-    left: 60px;
-    top: 450px;
-    background: #DEF8D9;
-    box-shadow: 8px 13px 4px rgba(29, 29, 27, 0.22);
-    border-radius: 200px;
-    font-family: Open Sans;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 140.62%;
-    color: #045837;
-    z-index: 2;
+  .form2 {
+    grid-area: form2;
+  }
+  .form3 {
+    grid-area: form3;
+  }
+  .form4 {
+    grid-area: form4;
+  }
+  .form5 {
+    grid-area: form5;
   }
 
-  form {
-      font-family: open sans;
+  input[type="text"] {
+    border: none;
+    border-bottom: 4px solid #def8d9;
+    border-right: 4px solid #def8d9;
+    background-color: #045837;
+    color: #def8d9;
+    width: 30vw;
+    height: 5vh;
+    font-size: 20px;
+  }
+  input[type="email"] {
+    border: none;
+    border-bottom: 4px solid #def8d9;
+    border-right: 4px solid #def8d9;
+    background-color: #045837;
+    color: #def8d9;
+    width: 30vw;
+    height: 5vh;
+    font-size: 20px;
+  }
+  .fourth-view > p {
+    font-size: 20px;
   }
 
   h3 {
-      font-family: open sans;
+    font-family: open sans;
+    font-size: 35px;
   }
-  
+  .fourth-view {
+    height: 60vh;
+  }
+}
