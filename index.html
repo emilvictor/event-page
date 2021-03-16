@@ -13,27 +13,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="preloader.css" />
-    <link rel="stylesheet" href="first-view.css" />
-    <link rel="stylesheet" href="second-view.css" />
-    <link rel="stylesheet" href="third-view.css" />
-    <link rel="stylesheet" href="fourth-view.css" />
-    <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="hamburger.css">
+    <link rel="stylesheet" href="assets/styles/preloader.css" />
+    <link rel="stylesheet" href="assets/styles/first-view.css" />
+    <link rel="stylesheet" href="assets/styles/second-view.css" />
+    <link rel="stylesheet" href="assets/styles/third-view.css" />
+    <link rel="stylesheet" href="assets/styles/fourth-view.css" />
+    <link rel="stylesheet" href="assets/styles/footer.css" />
+    <link rel="stylesheet" href="assets/styles/hamburger.css" />
 
     <title>Amazonas</title>
   </head>
   <body>
     <div class="preloader">
-      <img class="bush" src="./preload-svg/bushgreen.svg" alt="" />
+      <img class="bush" src="./assets/img/preload-svg/bushgreen.svg" alt="" />
       <h3>Into the amazonas</h3>
-      <img class="leaf1" src="./preload-svg/leafgreen.svg" alt="" />
-      <img class="leaf2" src="./preload-svg/leafyellow.svg" alt="" />
-      <img class="leaf3" src="./preload-svg/leaflightgreen.svg" alt="" />
+      <img class="leaf1" src="./assets/img/preload-svg/leafgreen.svg" alt="" />
+      <img
+        class="leaf2"
+        src="./assets/img//preload-svg/leafyellow.svg"
+        alt=""
+      />
+      <img
+        class="leaf3"
+        src="./assets/img/preload-svg/leaflightgreen.svg"
+        alt=""
+      />
     </div>
     <div class="dropdown" onclick="hamburgerToggle()">
       <span>X</span>
-      <div class="link-container">
+      <div class="dropdown-list">
         <a href="#projekt">Projekt</a>
         <a href="#about">Om oss</a>
         <a href="#kontakt">Kontakt</a>
@@ -41,15 +49,24 @@
       </div>
     </div>
     <nav>
-      <img src="pics-svg/cheesburger.svg" alt="" class="hamburger-menu" onclick="hamburgerToggle()" />
+      <img
+        src="./assets/img/pics-svg/cheesburger.svg"
+        alt=""
+        class="hamburger-menu"
+        onclick="hamburgerToggle()"
+      />
     </nav>
     <header>
       <!-- <img src="pics-svg/forest.svg" alt="" class="forest" />
       <img src="pics-svg/green.svg" alt="" class="green" />
       <img src="pics-svg/chalmerslogo.svg" alt="" class="chalmersLogo" /> -->
-      <img src="pics-svg/chalmerslogo.svg" alt="" class="chalmers-logo" />
       <img
-        src="pics-svg/greenboxandforest.svg"
+        src="./assets/img/pics-svg/chalmerslogo.svg"
+        alt=""
+        class="chalmers-logo"
+      />
+      <img
+        src="./assets/img/pics-svg/greenboxandforest.svg"
         alt=""
         class="greenboxandforest"
       />
@@ -57,7 +74,7 @@
     <div class="image-overlay"></div>
     <div class="background-fill"></div>
     <section class="first-view">
-      <img src="pics-svg/indian.svg" alt="" class="indian" />
+      <img src="./assets/img/pics-svg/indian.svg" alt="" class="indian" />
       <div class="title-container">
         <h1 class="nature-title">Nature</h1>
         <h2 class="second-title">Amazonas i Colombia</h2>
@@ -79,16 +96,16 @@
     <section id="projekt" class="second-view">
       <div class="blob-grid">
         <div class="item1">
-          <img src="pics-svg/utställning.svg" alt="" />
-          <img src="pics-svg/hantverk.svg" alt="" />
+          <img src="./assets/img/pics-svg/utställning.svg" alt="" />
+          <img src="./assets/img/pics-svg/hantverk.svg" alt="" />
         </div>
         <div class="item2">
-          <img src="pics-svg/workshop_matlagning.svg" alt="" />
-          <img src="pics-svg/marknad.svg" alt="" />
+          <img src="./assets/img/pics-svg/workshop_matlagning.svg" alt="" />
+          <img src="./assets/img/pics-svg/marknad.svg" alt="" />
         </div>
         <div class="item3">
-          <img src="pics-svg/föreläsning.svg" alt="" />
-          <img src="pics-svg/spelning.svg" alt="" />
+          <img src="./assets/img/pics-svg/föreläsning.svg" alt="" />
+          <img src="./assets/img/pics-svg/spelning.svg" alt="" />
         </div>
       </div>
     </section>
@@ -128,9 +145,9 @@
           name="adress"
           value="Adress"
         /><br /><br />
-        <label for="fname">Mailadress</label><br />
+        <label for="email">Mailadress</label><br />
         <input type="email" id="email" name="email" value="Email" /><br />
-        <label for="email">Telefonnummer</label><br />
+        <label for="phonenumber">Telefonnummer</label><br />
         <input type="text" id="fname" name="fname" value="Tel" /><br />
         <label for="fname">Meddelande</label><br />
         <input type="text" id="fname" name="fname" value="Meddelande" /><br />
@@ -147,7 +164,7 @@
       </div>
 
       <img
-        src="pics-svg/chalmerslogo.svg"
+        src="./assets/img/pics-svg/chalmerslogo.svg"
         alt=""
         class="chalmers-logo-footer"
       />
@@ -156,8 +173,8 @@
         <p>Kontakt</p>
         <p><a href="">chalmers@chalmers.se</a></p>
       </div>
-    </footer >
-    <script src="query.js"></script>
-    <script src="app.js"></script>
+    </footer>
+    <script src="assets/scripts/query.js"></script>
+    <script src="assets/scripts/app.js"></script>
   </body>
 </html>
