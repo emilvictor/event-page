@@ -17,7 +17,7 @@ p {
   font-family: open sans;
 }
 .form-button {
-  margin-top: 20px;
+  margin-top: 10%;
   width: 130px;
   left: 60px;
   top: 450px;
@@ -115,6 +115,10 @@ button:focus {
     font-size: 35px;
   }
   .fourth-view {
-    height: 60vh;
+    height: 100vh;
+  }
+
+  .form-button {
+    margin-top: 5%;
   }
 }
