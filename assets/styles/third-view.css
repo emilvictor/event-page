@@ -39,13 +39,9 @@
   color: #045837;
 }
 
-/* .map-container {
-  margin-top: 35vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
+.map-title-container {
+  margin-bottom: 5%;
+}
 
 .map {
   /* position: absolute; */

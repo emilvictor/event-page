@@ -6,5 +6,4 @@ window.addEventListener("load", () => {
 function hamburgerToggle() {
   const hamburgerMenu = document.querySelector(".dropdown");
   hamburgerMenu.classList.toggle("on");
-  console.log("Hello");
-};
+}
