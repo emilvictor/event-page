@@ -1,4 +1,4 @@
-# event-page
+# Amazon Event
 
 ## Assignment
 
