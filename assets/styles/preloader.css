@@ -141,7 +141,7 @@
     position: absolute;
   }
 
-  .leaf1, 
+  .leaf1,
   .leaf2,
   .leaf3,
   .leaf9,
@@ -150,9 +150,15 @@
   }
 
   .preloader h3 {
-    font-size: 50px;
+    position: absolute;
     top: 35%;
-    animation: text 7s ease infinite alternate;
+    transform: translateY(-75%);
+    font-family: "OleoScriptSwashCaps-Bold";
+    color: #045837;
+    font-size: 50px;
+    animation: text 1s ease infinite alternate;
+    z-index: 1;
+
   }
 
   @keyframes text {
