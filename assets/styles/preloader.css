@@ -85,7 +85,7 @@
 
 .preloader h3 {
   position: absolute;
-  top: 25%;
+  top: 40%;
   transform: translateY(-75%);
   font-family: "OleoScriptSwashCaps-Bold";
   color: #045837;
@@ -150,15 +150,9 @@
   }
 
   .preloader h3 {
-    position: absolute;
-    top: 35%;
-    transform: translateY(-75%);
-    font-family: "OleoScriptSwashCaps-Bold";
-    color: #045837;
     font-size: 50px;
-    animation: text 1s ease infinite alternate;
-    z-index: 1;
-
+    top: 35%;
+    animation: text 7s ease infinite alternate;
   }
 
   @keyframes text {
