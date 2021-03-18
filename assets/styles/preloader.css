@@ -109,7 +109,7 @@
   position: absolute;
   top: 25%;
   transform: translateY(-75%);
-  font-family: Oleo Script Swash Caps;
+  font-family: "OleoScriptSwashCaps-Bold";
   color: #045837;
   font-size: 40px;
   animation: text 1s ease infinite alternate;
