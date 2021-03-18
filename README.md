@@ -1,5 +1,7 @@
 # Amazon Event
 
+![](https://media.giphy.com/media/65FpvO4afYixFr99xa/giphy.gif)
+
 ## Assignment
 
 This is a school assignment in which the programs Web Developer and IP Graphical Production & Form at Yrgo are collaborating. In this project we are going to create an event invitation in both physical and digital form for a real company.
