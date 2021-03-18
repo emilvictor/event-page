@@ -83,28 +83,6 @@
   animation: leafreverse 1s ease-in-out infinite alternate;
 }
 
-.bush,
-.bushlight,
-.greenplant {
-  height: 200px;
-  position: absolute;
-  animation: bush 0.5s ease infinite alternate;
-}
-
-.bush {
-  top: 45%;
-  left: 2%;
-}
-
-.bushlight {
-  top: 45%;
-  left: 55%;
-}
-
-.greenplant {
-  top: 53%;
-}
-
 .preloader h3 {
   position: absolute;
   top: 25%;
@@ -143,15 +121,6 @@
   }
 }
 
-@keyframes bush {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.05);
-  }
-}
-
 .preloader-finish {
   opacity: 0;
   pointer-events: none;
@@ -180,26 +149,6 @@
     top: 55%;
   }
 
-  .bush,
-  .bushlight,
-  .greenplant {
-    height: 300px;
-  }
-
-  .bush {
-    top: 50%;
-    left: 35%;
-  }
-
-  .bushlight {
-    top: 50%;
-    left: 55%;
-  }
-
-  .greenplant {
-    top: 65%;
-    right: 73%;
-  }
   .preloader h3 {
     font-size: 50px;
     top: 35%;
