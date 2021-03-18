@@ -1,6 +1,6 @@
 let urlParams = new URLSearchParams(window.location.search);
 const welcomeText = document.querySelector(".title-container");
-const nameForm = document.querySelector("#fname");
+const nameForm = document.querySelector("#name");
 const emailForm = document.querySelector("#email");
 
 if (urlParams.has("first-name")) {
