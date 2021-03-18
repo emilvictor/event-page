@@ -8,13 +8,6 @@
   margin-top: 5%;
 }
 
-/* .third-title-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
 .third-title {
   width: 255px;
   font-family: OleoScriptSwashCaps-Bold;
@@ -22,9 +15,9 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 140.62%;
-  /* or 28px */
   color: #045837;
   z-index: 2;
+  margin-left: 5%;
 }
 
 .about-us {
@@ -39,11 +32,7 @@
   color: #045837;
 }
 
-.map-title-container {
-}
-
 .map {
-  /* position: absolute; */
   width: 252px;
   height: 350px;
   background: #045837;
@@ -70,7 +59,6 @@
 
   .third-title {
     font-size: 30px;
-    text-align: center;
   }
 
   .map-title {
