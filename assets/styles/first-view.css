@@ -2,9 +2,23 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #def8d9;
   margin: 0;
+}
+
+@font-face {
+  font-family: "OleoScriptSwashCaps-Bold";
+  src: url("/../assets/fonts/OleoScriptSwashCaps-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("/../assets/fonts/OpenSans-Regular.woff") format("woff");
 }
 
 header {
@@ -31,7 +45,7 @@ nav {
 }
 
 nav .hamburger-menu {
-  z-index: 12;
+  z-index: 3;
   position: fixed;
   top: 10px;
   right: 10px;
@@ -106,13 +120,6 @@ nav .hamburger-menu {
   transition-timing-function: ease;
 }
 
-/* .image-overlay:hover {
-  transform: translateX(-25px);
-} */
-/* header.test {
-  transform: translateX(-30%);
-} */
-
 .title-container {
   display: flex;
   position: absolute;
@@ -126,7 +133,7 @@ nav .hamburger-menu {
   margin: 0;
   left: 43px;
   top: 259px;
-  font-family: Oleo Script Swash Caps;
+  font-family: "OleoScriptSwashCaps-Bold";
   font-style: normal;
   font-weight: bold;
   text-align: center;
@@ -140,7 +147,7 @@ nav .hamburger-menu {
   margin-top: -15px;
   left: 36px;
   top: 360px;
-  font-family: Open Sans;
+  font-family: OpenSans-Regular;
   font-style: italic;
   font-weight: normal;
   font-size: 32px;
@@ -153,13 +160,12 @@ nav .hamburger-menu {
 
 .welcome-title {
   padding-top: 1rem;
-  font-family: Oleo Script Swash Caps;
+  font-family: "OleoScriptSwashCaps-Bold";
   font-style: italic;
   font-weight: bold;
   font-size: 32px;
   text-align: center;
   line-height: 140.62%;
-  /* or 45px */
   color: #045837;
   z-index: 2;
 }
@@ -171,14 +177,13 @@ nav .hamburger-menu {
   background: #456140;
   box-shadow: 8px 13px 4px rgba(29, 29, 27, 0.22);
   border-radius: 200px;
-  font-family: Open Sans;
+  font-family: OpenSans-Regular;
   font-style: italic;
   font-weight: normal;
   font-size: 36px;
   line-height: 140.62%;
   color: #def8d9;
   z-index: 2;
-  /* or 51px */
   transition: transform 2s;
 }
 
@@ -198,8 +203,9 @@ nav .hamburger-menu {
 
 @media screen and (min-width: 700px) {
   .chalmers-logo {
-    width: 250px;
+    width: 290px;
     height: 100px;
+    padding-left: 3%;
   }
 
   .title-container {

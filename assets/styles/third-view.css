@@ -5,7 +5,7 @@
   align-items: center;
   background: #def8d9;
   margin: 0;
-  /* padding: 5px; */
+  margin-top: 5%;
 }
 
 /* .third-title-container {
@@ -17,7 +17,7 @@
 
 .third-title {
   width: 255px;
-  font-family: Oleo Script Swash Caps;
+  font-family: OleoScriptSwashCaps-Bold;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -31,7 +31,7 @@
   width: 260px;
   left: 60px;
   top: 36px;
-  font-family: Open sans;
+  font-family: OpenSans-Regular;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -40,7 +40,6 @@
 }
 
 .map-title-container {
-  margin-bottom: 5%;
 }
 
 .map {
@@ -52,7 +51,7 @@
 }
 
 .map-title {
-  font-family: Oleo Script Swash Caps;
+  font-family: OleoScriptSwashCaps-Bold;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -67,7 +66,6 @@
 
   .third-title-container {
     width: 60vw;
-    margin-right: 6%;
   }
 
   .third-title {

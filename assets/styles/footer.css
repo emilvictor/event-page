@@ -13,23 +13,23 @@ footer {
 }
 
 .left-footer {
-  font-family: Open Sans;
+  font-family: OpenSans-Regular;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
 }
 
 .right-footer {
-  font-family: Open Sans;
+  font-family: OpenSans-Regular;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
+  padding-right: 5%;
 }
 
 @media screen and (min-width: 700px) {
   .right-footer {
     font-size: 18px;
-    padding-right: 10px;
   }
 
   .left-footer {

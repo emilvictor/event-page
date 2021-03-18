@@ -8,36 +8,101 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* transition: 1s opacity 4s ease; */
+  transition: 1s opacity 3s ease;
 }
 
 .leaf1,
 .leaf2,
-.leaf3 {
+.leaf3,
+.leaf4,
+.leaf5,
+.leaf6,
+.leaf7,
+.leaf8,
+.leaf9,
+.leaf10 {
   height: 200px;
   position: absolute;
 }
 
 .leaf1 {
-  top: 75%;
+  top: 70%;
   right: 25%;
   animation: leaf 1s ease-in infinite alternate;
 }
 
 .leaf2 {
-  top: 75%;
+  top: 70%;
   left: 25%;
   animation: leaf 1s linear infinite alternate;
 }
 
 .leaf3 {
-  top: 75%;
+  top: 70%;
+  animation: leafreverse 1s ease-in-out infinite alternate;
+}
+
+.leaf4 {
+  top: 0%;
+  animation: leafreverse 1s ease-in infinite alternate;
+  left: 25%;
+}
+
+.leaf5 {
+  top: 0%;
+  right: 25%;
+  animation: leafreverse 1s linear infinite alternate;
+}
+
+.leaf6 {
+  top: 0%;
   animation: leaf 1s ease-in-out infinite alternate;
 }
 
-.bush {
+.leaf7 {
+  top: 0%;
+  right: 10%;
+  animation: leaf 1s linear infinite alternate;
+}
+
+.leaf8 {
+  top: 0%;
+  left: 10%;
+  animation: leaf 1s ease-in infinite alternate;
+}
+
+.leaf9 {
+  top: 70%;
+  left: 10%;
+  animation: leafreverse 1s ease-in-out infinite alternate;
+}
+
+.leaf10 {
+  top: 70%;
+  right: 10%;
+  animation: leafreverse 1s ease-in-out infinite alternate;
+}
+
+.bush,
+.bushlight,
+.greenplant {
   height: 200px;
-  animation: bush 8s ease infinite alternate;
+  position: absolute;
+  animation: bush 0.5s ease infinite alternate;
+}
+
+.bush {
+  top: 45%;
+  left: 2%;
+}
+
+.bushlight {
+  top: 45%;
+  left: 55%;
+}
+
+.greenplant {
+  top: 53%;
 }
 
 .preloader h3 {
@@ -47,14 +112,16 @@
   font-family: Oleo Script Swash Caps;
   color: #045837;
   font-size: 40px;
+  animation: text 1s ease infinite alternate;
+  z-index: 1;
 }
 
-@keyframes bush {
+@keyframes text {
   from {
     transform: scale(1);
   }
   to {
-    transform: scale(5);
+    transform: scale(1.1);
   }
 }
 
@@ -67,7 +134,84 @@
   }
 }
 
+@keyframes leafreverse {
+  from {
+    transform: rotateZ(5deg);
+  }
+  to {
+    transform: rotateZ(-10deg);
+  }
+}
+
+@keyframes bush {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
 .preloader-finish {
   opacity: 0;
   pointer-events: none;
+}
+
+@media screen and (min-width: 700px) {
+  .leaf1,
+  .leaf2,
+  .leaf3,
+  .leaf4,
+  .leaf5,
+  .leaf6,
+  .leaf7,
+  .leaf8,
+  .leaf9,
+  .leaf10 {
+    height: 400px;
+    position: absolute;
+  }
+
+  .leaf1,
+  .leaf2,
+  .leaf3,
+  .leaf9,
+  .leaf10 {
+    top: 55%;
+  }
+
+  .bush,
+  .bushlight,
+  .greenplant {
+    height: 300px;
+  }
+
+  .bush {
+    top: 50%;
+    left: 35%;
+  }
+
+  .bushlight {
+    top: 50%;
+    left: 55%;
+  }
+
+  .greenplant {
+    top: 65%;
+    right: 73%;
+  }
+  .preloader h3 {
+    font-size: 50px;
+    top: 35%;
+    animation: text 7s ease infinite alternate;
+  }
+
+  @keyframes text {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(5);
+    }
+  }
 }

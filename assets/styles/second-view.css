@@ -14,16 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.blob-title {
-  text-align: center;
-  color: #045837;
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 700;
-  text-align: center;
-  font-family: Oleo Script Swash Caps;
+  padding-top: 3%;
 }
 
 .blob-title2 {
@@ -33,22 +24,22 @@
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
-  font-family: Oleo Script Swash Caps;
+  font-family: OleoScriptSwashCaps-Bold;
   z-index: 2;
 }
 
 .blob-title3 {
-  font-family: Open Sans;
+  font-family: OpenSans-Regular;
   font-style: italic;
   font-weight: normal;
   font-size: 32px;
   text-align: center;
   line-height: 140.62%;
   margin: 0;
-  /* or 45px */
   color: #045837;
   z-index: 2;
 }
+
 .blob-grid {
   display: grid;
   grid-auto-flow: column;
@@ -84,6 +75,24 @@
 
 .item3 > img {
   margin: -35px;
+}
+
+.blob1:hover,
+.blob2:hover,
+.blob3:hover,
+.blob4:hover,
+.blob5:hover,
+.blob6:hover {
+  animation: blob 0.5s ease infinite alternate;
+}
+
+@keyframes blob {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
 
 @media screen and (min-width: 700px) {
