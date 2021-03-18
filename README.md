@@ -1,4 +1,6 @@
-# event-page
+# Amazon Event
+
+![](https://media.giphy.com/media/65FpvO4afYixFr99xa/giphy.gif)
 
 ## Assignment
 
